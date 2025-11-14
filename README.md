@@ -25,7 +25,7 @@ The goal of this assignment is to:
 ```
 ├── train_model.ipynb        # Main training notebook
 ├── models                   # Saved model weights folder (bestfit, overfit, and underfit)
-├── tokenizer       # saved tokenizer folder
+├── tokenizer                # Saved tokenizer folder
 ├── README.md                # This file
 ```
 
