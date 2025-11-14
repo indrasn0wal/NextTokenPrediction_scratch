@@ -24,9 +24,8 @@ The goal of this assignment is to:
 
 ```
 ├── train_model.ipynb        # Main training notebook
-├── transformer_overfit.pth  # Saved model weights (example)
-├── bpe_tokenizer.pkl        # Serialized BPE tokenizer
-├── bpe_vocab.json           # Vocabulary file
+├── models                   # Saved model weights folder (bestfit, overfit, and underfit)
+├── tokenizer       # saved tokenizer folder
 ├── README.md                # This file
 ```
 
