@@ -124,7 +124,8 @@ Open the notebook in colab notebook, and upload the .txt dataset file in colab, 
 ```
 train_model.ipynb
 ```
-
+Or instead of downloading, directly open this colab file:
+Colab Link: https://colab.research.google.com/drive/1t8P0vFN9jiTQYHhaZkOrj-rWFX8nxmEm?usp=sharing
 ---
 
 ## Notes
