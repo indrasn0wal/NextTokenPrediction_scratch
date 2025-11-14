@@ -38,7 +38,8 @@ The goal of this assignment is to:
 - Final vocab size: 880 tokens
 - Train/validation split: 90% / 10%
 - Total encoded tokens: 334,616
-
+- Train tokens: 300,855
+- Val tokens: 33,761
 ---
 
 ## Methodology
@@ -93,7 +94,7 @@ Seeds set for:
 
 ### Best Fit
 - Medium-sized transformer
-- Dropout = 0.1–0.3
+- Dropout = 0.25
 - Both losses decreased smoothly
 - Best perplexity
 
@@ -118,13 +119,8 @@ git clone <repo_url>
 cd <repo_name>
 ```
 
-### 2. Install dependencies
-```bash
-pip install torch numpy matplotlib
-```
-
-### 3. Run training
-Open the notebook in colab notebook, and upload the .txt file in colab, and run line by line:
+### 2. Run training
+Open the notebook in colab notebook, and upload the .txt dataset file in colab, and run the colab notebook:
 ```
 train_model.ipynb
 ```
